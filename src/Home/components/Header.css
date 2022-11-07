@@ -1,0 +1,35 @@
+.h1-Header{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.div-Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.linkHeader{
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.linkHeader:hover{
+    color: violet;
+    transition: cubic-bezier(0.77, 0, 0.175, 1) 0.2s;
+    transform: scale(1.1);
+}
+.h1-Header:hover{
+    color: violet;
+    transition: cubic-bezier(0.77, 0, 0.175, 1) 0.2s;
+    transform: scale(1.1);
+}
